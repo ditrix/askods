@@ -1,0 +1,46 @@
+#fPopUp {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    max-width: 50%;
+    min-width: 400px;
+    display: block;
+    z-index: 99999;
+}
+#fPopUp .content {
+    font-size: 16px;
+    background-clip: padding-box;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    outline: 0 none;
+    border-bottom-color: rgba(0, 0, 0, 0.4);
+    border-radius: 0;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    padding: 15px;
+    cursor: pointer;
+    margin: 0 20px 20px 0;
+}
+#fPopUp .content.success {
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+    color: #3c763d;
+}
+#fPopUp .content.info {
+    background-color: #d7e1eb;
+    border-color: #d7e1eb;
+    color: #3f6a93;
+}
+#fPopUp .content.warning {
+    background-color: #fcf8e3;
+    border-color: #faebcc;
+    color: #8a6d3b;
+}
+#fPopUp .content.danger {
+    background-color: #f2dede;
+    border-color: #ebccd1;
+    color: #a94442;
+}
+#fPopUp .content:hover {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom-color: rgba(0, 0, 0, 0.4);
+}

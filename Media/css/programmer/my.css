@@ -1,0 +1,29 @@
+.wBlock_service_right--banner > span {
+    display: block;
+    width: 100%;
+}
+
+.wBlock_service_right--banner > span img {
+    width: 100%;
+    vertical-align: top;
+}
+
+/* .mm-page {
+    min-height: 100%;
+} */
+
+.errorPage .errorWrapper {
+    background-color: #fff;
+}
+
+.errorPage .errorHeader:before {
+    display: none;
+}
+
+.errorPage .wTxt a[href^="http"],
+.errorPage .wTxt a[href^="www."] {
+    cursor: pointer;
+}
+
+.refsPool {display: block; margin-bottom: 30px !important;  }
+.refsPool .btnContent { padding: 10px 30px;}
